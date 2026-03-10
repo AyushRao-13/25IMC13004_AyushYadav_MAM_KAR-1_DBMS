@@ -21,6 +21,8 @@ INSERT INTO Employees VALUES
 
 <img width="1093" height="251" alt="image" src="https://github.com/user-attachments/assets/323ebb5a-661c-4f97-9611-4eb15f79410c" />
 
+
+
 #Ques-1
 SELECT 
     e1.manager_id,
@@ -32,6 +34,8 @@ JOIN Employees e2
    AND e1.emp_id < e2.emp_id
 
 <img width="578" height="193" alt="image" src="https://github.com/user-attachments/assets/3bd4cafa-6d3d-4452-9c58-9f42f08199e8" />
+
+
 
 #Ques-2
 SELECT MAX(Salary) AS SecondHighestSalary
